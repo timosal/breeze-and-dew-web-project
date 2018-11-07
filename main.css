@@ -84,7 +84,7 @@ text-align: center;
 
 [class*="col-"] {
     flex: 50%;
-    max-width: 50%;
+    max-width: 25%;
     float: left;
     padding: 15px;
 }
