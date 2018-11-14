@@ -22,6 +22,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
   
 }
 .bgimg-1 {
@@ -49,6 +50,7 @@ body, html {
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
+    opacity: 0.80;
 }
     
 h3 {
@@ -63,6 +65,7 @@ text-align: center;
     text-align: justify;
     min-height: 350px;
     overflow: auto;
+    z-index: -1;
 }
 
 .card {
@@ -105,3 +108,52 @@ text-align: center;
     width: 25%;
 }
 
+/* navigaatio */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #111;
+    background-color: #111;
+    opacity: 0.75;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #9FEEF8;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.menubtn {
+    position: sticky;
+    top: 0;
+    z-index: 0;
+    height: 0;
+}
