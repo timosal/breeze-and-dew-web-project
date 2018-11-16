@@ -17,7 +17,11 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
 	z-index: -1;
+=======
+    z-index: -1;
+>>>>>>> 18e2b9ae527b4b9c555b91fff205cb2c3addc190
   
 }
 .bgimg-1 {
@@ -45,12 +49,25 @@ body, html {
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
+    opacity: 0.80;
 }
 
+<<<<<<< HEAD
 h3 {
     text-align: center;
     text-transform: uppercase;
     font: 20px "Helvetica", sans-seri
+=======
+.mainbox {
+    color: #777;
+    background-color:white;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+    min-height: 350px;
+    overflow: auto;
+    z-index: -1;
+>>>>>>> 18e2b9ae527b4b9c555b91fff205cb2c3addc190
 }
  
 /* CONTACT CARDS */
@@ -154,6 +171,52 @@ h3 {
     font-size: 60px;
 }
 
+<<<<<<< HEAD
+=======
+/* navigaatio */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #111;
+    background-color: #111;
+    opacity: 0.75;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #9FEEF8;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+>>>>>>> 18e2b9ae527b4b9c555b91fff205cb2c3addc190
 .menubtn {
     position: sticky;
     top: 0;
