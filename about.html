@@ -5,67 +5,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Breeze & Dew Co.</title>
   <link rel="stylesheet" href="main.css">
+  <script src="nav.js"></script>
   </head>
   <body>
+    <div class="menubtn">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>  
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <nav class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About Us</a>
+            </nav>
+        </div> 
+    </div>
     <div class="bgimg-1">
         <div class="caption">
           <span class="border">Breeze & Dew Co.</span>
         </div>
     </div>
-    <div class="nav">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="about.html">About Us</a>
-        </nav>
-    </div>
 
-    <div class="mainbox">   
-      <h3>WHO WORKED ON THIS SITE</h3>
-      <div class="row">
-      <div class="col-1">
-      <div class="card">
-        <img src="ava1.png" alt="ava1" style="width:100%">
-        <div class="container">
-          <h4>Timo Salminen</h4>
-          <p>SCRUM-Master</p>
+
+    <h3>Who worked on this site:</h3>
+    <div class="section group">
+        <div class="col span_1_of_4">
+          <div class="card">
+            <img src="img/essi.png" alt="Essi Varjonen" style="width:100%">
+            <div class="container">
+              <h4>Essi Varjonen</h4>
+              <p>HTML + JavaScript</p>
+            </div>
+          </div>
         </div>
+        <div class="col span_1_of_4">
+            <div class="card">
+                <img src="img/kim.png" alt="Kim Rosengren" style="width:100%">
+                <div class="container">
+                  <h4>Kim Rosengren</h4>
+                  <p>CSS + Graphics</p>
+                </div>
+          </div>
         </div>
+        <div class="col span_1_of_4">
+            <div class="card">
+                <img src="img/siiri.png" alt="Siiri Ylönen" style="width:100%">
+                <div class="container">
+                  <h4>Siiri Ylönen</h4>
+                  <p>HTML + JavaScript</p>
+                </div>
+          </div>
+        </div>
+        <div class="col span_1_of_4">
+            <div class="card">
+                <img src="img/timo.png" alt="Timo Salminen" style="width:100%">
+                <div class="container">
+                  <h4>Timo Salminen</h4>
+                  <p>SCRUM-Master + HTML + CSS</p>
+                </div>
+          </div>
+        </div>
+
       </div>
-      <div class="col-2">
-      <div class="card">
-        <img src="ava1.png" alt="ava1" style="width:100%">
-        <div class="container">
-          <h4>Essi Varjonen</h4>
-          <p>Code</p>
-        </div>
-        </div>
-      </div>
-      <div class="col-3">
-      <div class="card">
-        <img src="siiri.png" alt="ava1" style="width:100%">
-        <div class="container">
-          <h4>Siiri Ylönen</h4>
-          <p>Code</p>
-        </div>
-      </div>
-      </div>
-      <div class="col-4">
-      <div class="card">
-        <img src="ava1.png" alt="ava1" style="width:100%">
-        <div class="container">
-          <h4>Kim Rosengren</h4>
-          <p>Code</p>
-        </div>
-        </div>
-        </div>
-      </div>  
-    </div>
+
       
     <div class="bgimg-2">     
     </div>
-      
-      
-      
+       
   </body>
 </html>
