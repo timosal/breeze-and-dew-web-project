@@ -62,7 +62,21 @@ h3 {
     text-align: justify;
     min-height: 350px;
     overflow: auto;
+}
+
+footer {
+    font-family: Helvetica, sans-serif;
+    background-color: #212121;
+    box-shadow: 0 -5px 5px -5px #333;
+    padding-top: 5px;
+    padding-left: 20px;
+    width: screen;
+    height: 150px;
+    bottom: 0;
+    left: 0;
+    position: relative;
     z-index: -1;
+
 }
  
 /* CONTACT CARDS */
@@ -117,55 +131,6 @@ h3 {
 	width: 23.8%;
 }
 
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
-}
-
-/* NAVIGATION */
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    background-color: #111;
-    background-color: #111;
-    opacity: 0.75;
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-
-.overlay-content {
-    position: relative;
-    top: 5%;
-    width: 100%;
-    text-align: left;
-    margin-top: 30px;
-}
-
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: white;
-    display: block;
-    transition: 0.3;
-}
-
-.overlay a:hover, .overlay a:focus {
-    color: #9FEEF8;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-}
-
 /* NAVIGATION */
 .overlay {
     height: 100%;
@@ -214,4 +179,12 @@ h3 {
     top: 0;
     z-index: 0;
     height: 0;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+    .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+    .overlay a {font-size:18px;}
+    .overlay-content {margin-top: 80px;}
 }
