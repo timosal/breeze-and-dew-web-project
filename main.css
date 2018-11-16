@@ -17,20 +17,15 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-<<<<<<< HEAD
 	z-index: -1;
-=======
-    z-index: -1;
->>>>>>> 18e2b9ae527b4b9c555b91fff205cb2c3addc190
-  
 }
 .bgimg-1 {
-    background-image: url("placeholder1.jpg");
+    background-image: url("img/bgimg/placeholder1.jpg");
     min-height: 100%;
 }
   
 .bgimg-2 {
-    background-image: url("placeholder2.jpg");
+    background-image: url("img/bgimg/placeholder2.jpg");
     min-height: 400px;
 }
   
@@ -52,12 +47,13 @@ body, html {
     opacity: 0.80;
 }
 
-<<<<<<< HEAD
+
 h3 {
     text-align: center;
     text-transform: uppercase;
-    font: 20px "Helvetica", sans-seri
-=======
+    font: 20px "Helvetica", sans-serif;
+}
+
 .mainbox {
     color: #777;
     background-color:white;
@@ -67,7 +63,6 @@ h3 {
     min-height: 350px;
     overflow: auto;
     z-index: -1;
->>>>>>> 18e2b9ae527b4b9c555b91fff205cb2c3addc190
 }
  
 /* CONTACT CARDS */
@@ -171,9 +166,7 @@ h3 {
     font-size: 60px;
 }
 
-<<<<<<< HEAD
-=======
-/* navigaatio */
+/* NAVIGATION */
 .overlay {
     height: 100%;
     width: 0;
@@ -193,7 +186,7 @@ h3 {
     top: 5%;
     width: 100%;
     text-align: left;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .overlay a {
@@ -216,7 +209,6 @@ h3 {
     font-size: 60px;
 }
 
->>>>>>> 18e2b9ae527b4b9c555b91fff205cb2c3addc190
 .menubtn {
     position: sticky;
     top: 0;
