@@ -23,13 +23,8 @@ img {
 	z-index: -1;
 }
 .bgimg-1 {
-    background-image: url("img/bgimg/placeholder1.jpg");
+    background-image: url("img/bgimg/placeholder3.jpg");
     min-height: 100%;
-}
-  
-.bgimg-2 {
-    background-image: url("img/bgimg/placeholder2.jpg");
-    min-height: 400px;
 }
   
 .caption {
@@ -59,6 +54,7 @@ h3 {
 .mainbox {
     color: #777;
     background-color:white;
+    z-index: -1;
     text-align:center;
     padding:50px 80px;
     text-align: justify;
@@ -66,13 +62,13 @@ h3 {
     overflow: auto;
 }
 
-
-
-
+#logo {
+    margin: 0 30%;
+}
 
 footer {
     font-family: Helvetica, sans-serif;
-    background-color: #212121;
+    background-color: #777;
     box-shadow: 0 -5px 5px -5px #333;
     padding-top: 5px;
     padding-left: 20px;
@@ -83,6 +79,7 @@ footer {
     position: relative;
     z-index: -1;
     text-align: center;
+    color: white;
 
 }
  
@@ -187,7 +184,7 @@ footer {
     background-color: #111;
     opacity: 0.75;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.25s;
 }
 
 .overlay-content {
@@ -223,6 +220,7 @@ footer {
     top: 0;
     z-index: 0;
     height: 0;
+    color: #777;
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
