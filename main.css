@@ -57,6 +57,10 @@ h3 {
     overflow: auto;
 }
 
+#logo {
+    margin: 0 30%;
+}
+
 footer {
     font-family: Helvetica, sans-serif;
     background-color: #212121;
