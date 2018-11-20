@@ -18,13 +18,8 @@ body, html {
 	z-index: -1;
 }
 .bgimg-1 {
-    background-image: url("img/bgimg/placeholder1.jpg");
+    background-image: url("img/bgimg/placeholder3.jpg");
     min-height: 100%;
-}
-  
-.bgimg-2 {
-    background-image: url("img/bgimg/placeholder2.jpg");
-    min-height: 400px;
 }
   
 .caption {
