@@ -63,7 +63,7 @@ h3 {
 
 footer {
     font-family: Helvetica, sans-serif;
-    background-color: #212121;
+    background-color: #777;
     box-shadow: 0 -5px 5px -5px #333;
     padding-top: 5px;
     padding-left: 20px;
@@ -74,6 +74,7 @@ footer {
     position: relative;
     z-index: -1;
     text-align: center;
+    color: white;
 
 }
  
@@ -177,7 +178,7 @@ footer {
     top: 0;
     z-index: 0;
     height: 0;
-    color: rgb(1, 255, 255);
+    color: #777;
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
