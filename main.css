@@ -276,7 +276,7 @@ textarea {
 .popbtn {
     position: absolute;
     top: 5px;
-    left: 92%;
+    right: 5%;
     z-index: 3;
     height: 50px;
     background-color: transparent;
