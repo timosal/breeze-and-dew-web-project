@@ -20,6 +20,65 @@
             </nav>
         </div> 
     </div>
+    <button class="popbtn" id="myBtn">BOOK A TABLE</button>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="container">
+              <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              </br><input type="text" id="fname" name="firstname" >
+    
+            </br> <label for="lname">Last Name</label>
+            </br> <input type="text" id="lname" name="lastname" >
+          </br> <label for="date">Date</label>
+        </br><input type="date" id="reservation" name="reservation">
+    
+      </br> <label for="comments">Comments / Additional Requests</label>
+    </br>   <input type="text" id="comments" name="comments"></br> 
+    
+    
+          </br><label for="time">Time</label>
+          </br><input type="time" id="booking" name="booking" min="8:00" max="22:00" required></br>
+    
+    
+        </br> <input type="submit" value="Submit">
+    
+              </form>
+            </div>
+        </div>
+      
+      </div>
+      
+      <script>
+        // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+      </script>
     <div class="bgimg-1">
         <div class="caption">
           <span class="border">About Us</span>
