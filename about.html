@@ -6,6 +6,7 @@
     <title>About Us | Breeze & Dew Co.</title>
   <link rel="stylesheet" href="main.css">
   <script src="nav.js"></script>
+  <script src="map.js"></script>
   </head>
   <body>
     <div class="menubtn">
@@ -66,7 +67,21 @@
 
 
       </section>
-      
+      <div class="mainbox">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.7054011316982!2d24.94276721584046!3d60.16905575045226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bcc3af5b0ab%3A0x41a3537639e6e200!2sAleksanterinkatu+15%2C+00100+Helsinki!5e0!3m2!1sfi!2sfi!4v1544519342683" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <form action="mailto:kim.rosengren@edu.turkuamk.fi" method="POST" enctype="text/plain">
+          Name:<br>
+          <input type="text" name="name" required><br>
+          E-Mail:<br>
+          <input type="email" name="email" required><br>
+          Topic:<br>
+          <input type="text" name="msgtype" list="type" required><br>
+          Message:<br>
+          <textarea name="msg" rows="10" cols="50" required></textarea><br><br>
+          <input type="reset" value="Reset">
+          <input type="submit" value="Send">
+      </form>
+      </div>
     <div class="bgimg-2">     
     </div>
     <div>
