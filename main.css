@@ -187,7 +187,6 @@ input[type=submit], input[type=reset] {
     cursor: pointer;
   }
 
-input[type=text], input[type=email], input[type=textarea] {
 input[type=text], input[type=email] {
     width: 100%;
 }
