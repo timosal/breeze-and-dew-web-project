@@ -280,7 +280,3 @@ textarea {
     .overlay a {font-size:18px;}
     .overlay-content {margin-top: 80px;}
 }
-
-@media only screen and (max-width: 480px) {
-    .cards3 {padding: 0 5}
-}
