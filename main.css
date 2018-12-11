@@ -195,6 +195,9 @@ textarea {
     width: 100%;
 }
 
+.formtext {
+    font-size: 15px;
+}
 /*  COLUMN SETUP  */
 .col {
 	display: block;
