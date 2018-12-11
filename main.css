@@ -115,11 +115,6 @@ footer {
     object-fit: cover;
 }
 
-
-
-
-
-
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -153,6 +148,20 @@ footer {
 	padding: 20px;
     margin: 0px;
     
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #777;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+  }
+
+input[type=text], input[type=email], input[type=textarea] {
+    width: 100%;
 }
 
 /*  COLUMN SETUP  */
