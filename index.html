@@ -19,6 +19,65 @@
             </nav>
         </div> 
     </div>
+    <button class="popbtn" id="myBtn">BOOK A TABLE</button>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="container">
+              <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              </br><input type="text" id="fname" name="firstname" >
+    
+            </br> <label for="lname">Last Name</label>
+            </br> <input type="text" id="lname" name="lastname" >
+          </br> <label for="date">Date</label>
+        </br><input type="date" id="reservation" name="reservation">
+      </br><label for="time">Time</label>
+    </br><input type="time" id="booking" name="booking" min="8:00" max="22:00" required></br>
+      </br> <label for="comments">Comments / Additional Requests</label>
+    </br>   <input type="text" id="comments" name="comments"></br> 
+    
+    
+  
+    
+    
+        </br> <input type="submit" value="Submit">
+    
+              </form>
+            </div>
+        </div>
+      
+      </div>
+      
+      <script>
+        // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+      </script>
     <div class="bgimg-1">
         <div class="caption-logo">
             <img src="img/ava/logo.svg" id="logo">        
@@ -27,13 +86,13 @@
     
       <section class="cards3">
         <div class="index-info">
-            <h3>Welcome to Breeze & Dew Co.</h3>
+        <h3>Welcome to Breeze & Dew Co.</h3>
         <p>The benefits of oxygen have been known for centuries and its effect on health is clear, statistically 100% of people who breathe it live longer. Combining oxygen with H2O, also known for its considerable influence in human wellbeing, we offer you a service like no other. Enjoy these natural ancient wonders in our modern environment and experience our products which someone could even consider as essentials for life itself.
 
           For Oxygen & H2O it can only be <b>Breeze & Dew.</b></p>
         </div>
        <div class="reserve-table">
-        <h3>Reserve a table</h3>
+        <h3>Book a table</h3>
         <form action="/action_page.php">
           <label for="fname">First Name</label>
             </br><input type="text" id="fname" name="firstname" >
